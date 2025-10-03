@@ -7,7 +7,7 @@ console.log("Esercizio 1");
 function area(l1, l2) {
   return l1 * l2;
 }
-console.log("Area rettangolo: 5,3:",area(5, 3));
+console.log("Area rettangolo: 5,3:", area(5, 3));
 
 /* ESERCIZIO 2
  Scrivi una funzione di nome "crazySum", che riceve due numeri interi come parametri.
@@ -87,14 +87,14 @@ console.log(epify("EPICODE is great"));
 */
 console.log("Esercizio 6");
 function check3and7(n) {
-    if (n <= 0) {
-        return false;
-    }
-    if (n % 3 === 0 || n % 7 === 0) {
-        return true;
-    } else {
-        return false;
-    }
+  if (n <= 0) {
+    return false;
+  }
+  if (n % 3 === 0 || n % 7 === 0) {
+    return true;
+  } else {
+    return false;
+  }
 }
 console.log("Check 21:", check3and7(21));
 console.log("Check 10:", check3and7(10));
